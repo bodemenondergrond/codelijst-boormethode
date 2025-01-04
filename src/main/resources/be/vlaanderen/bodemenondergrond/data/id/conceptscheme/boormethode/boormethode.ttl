@@ -1,0 +1,499 @@
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/boormethode/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.omgeving.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+collectie:boormethodes dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.boormethode.boormethodes";
+    a skos:Collection;
+    skos:inScheme conceptscheme:boormethode;
+    skos:member concept:avegaarboring, concept:diagrafieboring, concept:directespoelboring, concept:drogeboring, concept:edelmanboring, concept:geenboring, concept:gestokenboring, concept:graafmachine, concept:grijperboring, concept:grindboring, concept:gutsboring, concept:hamerboring, concept:handboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:kernboring, concept:lans, concept:lepelboring, concept:luchthevel, concept:machinaleboring, concept:meerderetechnieken, concept:omgekeerdespoelboring, concept:onbekend, concept:pulsboring, concept:ramguts, concept:ramkernboring, concept:riversideboring, concept:rollerbit, concept:slagboring, concept:sonischeboring, concept:spade, concept:spiraalboring, concept:spoelboring, concept:trilboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
+    skos:notation "collectie_boormethodes";
+    skos:prefLabel "Collectie van boormethodes"@nl.
+concept:avegaarboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.avegaarboring";
+    a skos:Concept;
+    skos:altLabel "volle avegaarboring, gewone avegaarboring, machinale spiraalboring"@nl;
+    skos:broader concept:drogeboring;
+    skos:broaderTransitive concept:drogeboring, concept:machinaleboring;
+    skos:definition "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat  voor het transport van de grond naar het maaiveld."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "avegaarboring";
+    skos:note "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat  voor het transport van de grond naar het maaiveld."@nl;
+    skos:prefLabel "avegaarboring"@nl;
+    skos:semanticRelation concept:drogeboring, concept:machinaleboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:diagrafieboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.diagrafieboring";
+    a skos:Concept;
+    skos:broader concept:machinaleboring;
+    skos:broaderTransitive concept:machinaleboring;
+    skos:definition "Destructieve boring waarbij tijdens het boren de boorparameters (zoals boorsnelheid) geregistreerd worden om zo heterogene variaties in de ondergrond vast te leggen."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "diagrafieboring";
+    skos:note "Destructieve boring waarbij tijdens het boren de boorparameters (zoals boorsnelheid) geregistreerd worden om zo heterogene variaties in de ondergrond vast te leggen."@nl;
+    skos:prefLabel "diagrafieboring"@nl;
+    skos:semanticRelation concept:machinaleboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:directespoelboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.directespoelboring";
+    a skos:Concept;
+    skos:altLabel "directe spoelboring, direct flush, straight flush, spuitboring"@nl;
+    skos:broader concept:spoelboring;
+    skos:broaderTransitive concept:spoelboring;
+    skos:definition "Bij een directe spoelboring verloopt de neerwaartse watertoevoer via de boorstangen en de bij de boring vrijkomende grond wordt omhoog getransporteerd via de ruimte tussen de boorstangen en de boorwand, de zogenaamde annulaire ruimte."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "directespoelboring";
+    skos:note "Bij een directe spoelboring verloopt de neerwaartse watertoevoer via de boorstangen en de bij de boring vrijkomende grond wordt omhoog getransporteerd via de ruimte tussen de boorstangen en de boorwand, de zogenaamde annulaire ruimte."@nl;
+    skos:prefLabel "directespoelboring"@nl;
+    skos:semanticRelation concept:spoelboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:drogeboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.drogeboring";
+    a skos:Concept;
+    skos:broader concept:machinaleboring;
+    skos:broaderTransitive concept:machinaleboring;
+    skos:definition "Machinaal uitgevoerde boring uitgevoerd zonder het gebruik van spoelvloeistof."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:narrower concept:avegaarboring, concept:lepelboring, concept:slagboring, concept:trilboring;
+    skos:narrowerTransitive concept:avegaarboring, concept:gestokenboring, concept:lepelboring, concept:ramguts, concept:ramkernboring, concept:slagboring, concept:sonischeboring, concept:trilboring;
+    skos:notation "drogeboring";
+    skos:note "Machinaal uitgevoerde boring uitgevoerd zonder het gebruik van spoelvloeistof."@nl;
+    skos:prefLabel "drogeboring"@nl;
+    skos:semanticRelation concept:avegaarboring, concept:gestokenboring, concept:lepelboring, concept:machinaleboring, concept:ramguts, concept:ramkernboring, concept:slagboring, concept:sonischeboring, concept:trilboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:edelmanboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.edelmanboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een edelmanboor voor geroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "edelmanboring";
+    skos:note "Handboring uitgevoerd met een edelmanboor voor geroerde staalname."@nl;
+    skos:prefLabel "edelmanboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:geenboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.geenboring";
+    a skos:Concept;
+    skos:definition "Deze boormethode wordt gebruikt om objecten te beschrijven die niet bemonsterd werden d.m.v. een boring. Het kan gaan om een voorput, profiel, een groeve of een ontsluiting."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:narrower concept:graafmachine, concept:spade;
+    skos:narrowerTransitive concept:graafmachine, concept:spade;
+    skos:notation "geenboring";
+    skos:note "Deze boormethode wordt gebruikt om objecten te beschrijven die niet bemonsterd werden d.m.v. een boring. Het kan gaan om een voorput, profiel, een groeve of een ontsluiting."@nl;
+    skos:prefLabel "geen boring"@nl;
+    skos:semanticRelation concept:graafmachine, concept:spade;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:gestokenboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.gestokenboring";
+    a skos:Concept;
+    skos:altLabel "steekboring"@nl;
+    skos:broader concept:slagboring;
+    skos:broaderTransitive concept:drogeboring, concept:machinaleboring, concept:slagboring;
+    skos:definition "Boring uitgevoerd met een machinaal aangedreven steekboor voorzien van een staalnamebuis die in de grond wordt geslagen voor (semi) ongeroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "gestokenboring";
+    skos:note "Boring uitgevoerd met een machinaal aangedreven steekboor voorzien van een staalnamebuis die in de grond wordt geslagen voor (semi) ongeroerde staalname."@nl;
+    skos:prefLabel "gestoken boring"@nl;
+    skos:semanticRelation concept:drogeboring, concept:machinaleboring, concept:slagboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:graafmachine dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.graafmachine";
+    a skos:Concept;
+    skos:broader concept:geenboring;
+    skos:broaderTransitive concept:geenboring;
+    skos:definition "Deze boormethode wordt gebruikt om objecten te beschrijven die bemonsterd werden d.m.v. een graafmachine."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "graafmachine";
+    skos:note "Deze boormethode wordt gebruikt om objecten te beschrijven die bemonsterd werden d.m.v. een graafmachine."@nl;
+    skos:prefLabel "graafmachine"@nl;
+    skos:semanticRelation concept:geenboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:grijperboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.grijperboring";
+    a skos:Concept;
+    skos:broader concept:machinaleboring;
+    skos:broaderTransitive concept:machinaleboring;
+    skos:definition "Dit is een methode die meestal wordt aangewend voor het aanleggen van waterwinningen met zeer grote diameter en in zeer grof materiaal, zoals dit het geval is in bv. de maasgrinden. Hierbij wordt een grote casing door middel van een oscillatiebeweging (schudkader) in de grond gedreven die vervolgens, zoals bij het pulsen, aan de binnenkant wordt leeggemaakt d.m.v. een grijper aan een kabelkraan. Als de casing tot in de watervoerende laag gedreven is en leeggemaakt, wordt in het midden ervan de putuitrusting geplaatst, die met het nodige grindpakket wordt omgeven, terwijl stelselmatig de casing wordt teruggetrokken."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "grijperboring";
+    skos:note "Dit is een methode die meestal wordt aangewend voor het aanleggen van waterwinningen met zeer grote diameter en in zeer grof materiaal, zoals dit het geval is in bv. de maasgrinden. Hierbij wordt een grote casing door middel van een oscillatiebeweging (schudkader) in de grond gedreven die vervolgens, zoals bij het pulsen, aan de binnenkant wordt leeggemaakt d.m.v. een grijper aan een kabelkraan. Als de casing tot in de watervoerende laag gedreven is en leeggemaakt, wordt in het midden ervan de putuitrusting geplaatst, die met het nodige grindpakket wordt omgeven, terwijl stelselmatig de casing wordt teruggetrokken."@nl;
+    skos:prefLabel "grijperboring"@nl;
+    skos:semanticRelation concept:machinaleboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:grindboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.grindboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een grindboor voor staalname van harde en/of puinrijke gronden."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "grindboring";
+    skos:note "Handboring uitgevoerd met een grindboor voor staalname van harde en/of puinrijke gronden."@nl;
+    skos:prefLabel "grindboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:gutsboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.gutsboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd door de guts zo verticaal mogelijk in de grond te drukken of hameren voor minimaal geroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "gutsboring";
+    skos:note "Handboring uitgevoerd door de guts zo verticaal mogelijk in de grond te drukken of hameren voor minimaal geroerde staalname."@nl;
+    skos:prefLabel "gutsboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:hamerboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.hamerboring";
+    a skos:Concept;
+    skos:altLabel "luchthamer, steenboring"@nl;
+    skos:broader concept:machinaleboring;
+    skos:broaderTransitive concept:machinaleboring;
+    skos:definition "Boring uitgevoerd met een machinaal aangedreven steenboor, hamer of luchthamer door harde ondergrond."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "hamerboring";
+    skos:note "Boring uitgevoerd met een machinaal aangedreven steenboor, hamer of luchthamer door harde ondergrond."@nl;
+    skos:prefLabel "hamerboring"@nl;
+    skos:semanticRelation concept:machinaleboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:handboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.handboring";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boormethode;
+    skos:narrower concept:edelmanboring, concept:grindboring, concept:gutsboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:riversideboring, concept:spiraalboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
+    skos:narrowerTransitive concept:edelmanboring, concept:grindboring, concept:gutsboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:riversideboring, concept:spiraalboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
+    skos:notation "handboring";
+    skos:prefLabel "handboring"@nl;
+    skos:semanticRelation concept:edelmanboring, concept:grindboring, concept:gutsboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:riversideboring, concept:spiraalboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:handlepelboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.handlepelboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een lepelboor voor (semi) geroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "handlepelboring";
+    skos:note "Handboring uitgevoerd met een lepelboor voor (semi) geroerde staalname."@nl;
+    skos:prefLabel "handlepelboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:handpulsboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.handpulsboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een pulsboor voor geroerde staalname om niet-gedetailleerde boorbeschrijvingen uit te voeren."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "handpulsboring";
+    skos:note "Handboring uitgevoerd met een pulsboor voor geroerde staalname om niet-gedetailleerde boorbeschrijvingen uit te voeren."@nl;
+    skos:prefLabel "handpulsboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:handsteekboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.handsteekboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een steekboor voorzien van een staalnamebuis (liner) die in de grond wordt geduwd voor (semi) ongeroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "handsteekboring";
+    skos:note "Handboring uitgevoerd met een steekboor voorzien van een staalnamebuis (liner) die in de grond wordt geduwd voor (semi) ongeroerde staalname."@nl;
+    skos:prefLabel "handsteekboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:kernboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.kernboring";
+    a skos:Concept;
+    skos:altLabel "rotary kernboring, kroonboring"@nl;
+    skos:broader concept:machinaleboring;
+    skos:broaderTransitive concept:machinaleboring;
+    skos:definition "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij  boorkernen als stalen van de ondergrond bekomen worden."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "kernboring";
+    skos:note "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij  boorkernen als stalen van de ondergrond bekomen worden."@nl;
+    skos:prefLabel "kernboring"@nl;
+    skos:semanticRelation concept:machinaleboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:lans dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.lans";
+    a skos:Concept;
+    skos:altLabel "spuitlans, waterslang"@nl;
+    skos:broader concept:spoelboring;
+    skos:broaderTransitive concept:spoelboring;
+    skos:definition "Lansen is een machinale boortechniek waarbij door water onder hogedruk in de grond te spuiten de grond wordt losgemaakt. Gelijktijdig wordt vaak een buis in het losse materiaal van het boorgat geduwd om het boorgat open te houden."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "lans";
+    skos:note "Lansen is een machinale boortechniek waarbij door water onder hogedruk in de grond te spuiten de grond wordt losgemaakt. Gelijktijdig wordt vaak een buis in het losse materiaal van het boorgat geduwd om het boorgat open te houden."@nl;
+    skos:prefLabel "lansen"@nl;
+    skos:semanticRelation concept:spoelboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:lepelboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.lepelboring";
+    a skos:Concept;
+    skos:broader concept:drogeboring;
+    skos:broaderTransitive concept:drogeboring, concept:machinaleboring;
+    skos:definition "Boring uitgevoerd met een lepelboor die machinaal in de grond wordt gedreven."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "lepelboring";
+    skos:note "Boring uitgevoerd met een lepelboor die machinaal in de grond wordt gedreven."@nl;
+    skos:prefLabel "lepelboring"@nl;
+    skos:semanticRelation concept:drogeboring, concept:machinaleboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:luchthevel dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.luchthevel";
+    a skos:Concept;
+    skos:altLabel "air-lift boring"@nl;
+    skos:broader concept:spoelboring;
+    skos:broaderTransitive concept:spoelboring;
+    skos:definition "Bij de luchthevelboring gebeurt het opwaarts transport van de boorspecie doorheen de concentrische annulaire ruimte van de dubbelwandige boorstangen. De opwaartse stroming wordt in stand gebracht door lucht via een compressor te injecteren net boven de beitel."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "luchthevel";
+    skos:note "Bij de luchthevelboring gebeurt het opwaarts transport van de boorspecie doorheen de concentrische annulaire ruimte van de dubbelwandige boorstangen. De opwaartse stroming wordt in stand gebracht door lucht via een compressor te injecteren net boven de beitel."@nl;
+    skos:prefLabel "luchthevelboring"@nl;
+    skos:semanticRelation concept:spoelboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:machinaleboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.machinaleboring";
+    a skos:Concept;
+    skos:definition "Machinaal uitgevoerde boring."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:narrower concept:diagrafieboring, concept:drogeboring, concept:grijperboring, concept:hamerboring, concept:kernboring, concept:pulsboring;
+    skos:narrowerTransitive concept:avegaarboring, concept:diagrafieboring, concept:drogeboring, concept:gestokenboring, concept:grijperboring, concept:hamerboring, concept:kernboring, concept:lepelboring, concept:pulsboring, concept:ramguts, concept:ramkernboring, concept:slagboring, concept:sonischeboring, concept:trilboring;
+    skos:notation "machinaleboring";
+    skos:note "Machinaal uitgevoerde boring."@nl;
+    skos:prefLabel "machinale boring"@nl;
+    skos:semanticRelation concept:avegaarboring, concept:diagrafieboring, concept:drogeboring, concept:gestokenboring, concept:grijperboring, concept:hamerboring, concept:kernboring, concept:lepelboring, concept:pulsboring, concept:ramguts, concept:ramkernboring, concept:slagboring, concept:sonischeboring, concept:trilboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:meerderetechnieken dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.meerderetechnieken";
+    a skos:Concept;
+    skos:definition "Boring waarbij verschillende boormethoden gecombineerd werden tijdens de uitvoering,"@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "meerderetechnieken";
+    skos:note "Boring waarbij verschillende boormethoden gecombineerd werden tijdens de uitvoering,"@nl;
+    skos:prefLabel "meerdere technieken"@nl;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:omgekeerdespoelboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.omgekeerdespoelboor";
+    a skos:Concept;
+    skos:altLabel "zuigboring"@nl;
+    skos:broader concept:spoelboring;
+    skos:broaderTransitive concept:spoelboring;
+    skos:definition "Bij een omgekeerde spoelboring verloopt de wateraanvoer via de annulaire ruimte en komt de vrijgekomen grond omhoog door de boorstangen."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "omgekeerdespoelboring";
+    skos:note "Bij een omgekeerde spoelboring verloopt de wateraanvoer via de annulaire ruimte en komt de vrijgekomen grond omhoog door de boorstangen."@nl;
+    skos:prefLabel "omgekeerde spoelboring"@nl;
+    skos:semanticRelation concept:spoelboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:onbekend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.onbekend";
+    a skos:Concept;
+    skos:definition "Het is niet gekend hoe het object bemonsterd werd. Deze optie wordt vooral gebruikt bij het ingeven van (oude) archiefdata waar de boormethode niet gedocumenteerd werd."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "onbekend";
+    skos:note "Het is niet gekend hoe het object bemonsterd werd. Deze optie wordt vooral gebruikt bij het ingeven van (oude) archiefdata waar de boormethode niet gedocumenteerd werd."@nl;
+    skos:prefLabel "onbekend"@nl;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:pulsboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.pulsboring";
+    a skos:Concept;
+    skos:altLabel "pulsinstallatie, counterflushboring"@nl;
+    skos:broader concept:machinaleboring;
+    skos:broaderTransitive concept:machinaleboring;
+    skos:definition "Boring uitgevoerd met een machinaal aangedreven pulsboor."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "pulsboring";
+    skos:note "Boring uitgevoerd met een machinaal aangedreven pulsboor."@nl;
+    skos:prefLabel "pulsboring"@nl;
+    skos:semanticRelation concept:machinaleboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:ramguts dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.ramguts";
+    a skos:Concept;
+    skos:broader concept:slagboring;
+    skos:broaderTransitive concept:drogeboring, concept:machinaleboring, concept:slagboring;
+    skos:definition "Boring uitgevoerd met een gutsboor die machinaal met een slaghamer in de grond wordt gedreven."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "ramguts";
+    skos:note "Boring uitgevoerd met een gutsboor die machinaal met een slaghamer in de grond wordt gedreven."@nl;
+    skos:prefLabel "ramguts"@nl;
+    skos:semanticRelation concept:drogeboring, concept:machinaleboring, concept:slagboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:ramkernboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.ramkernboring";
+    a skos:Concept;
+    skos:altLabel "holle avegaarboring"@nl;
+    skos:broader concept:slagboring;
+    skos:broaderTransitive concept:drogeboring, concept:machinaleboring, concept:slagboring;
+    skos:definition "Boring uitgevoerd met een machinaal aangedreven spiraalboor (schroef) rond een holle binnenbuis om op de bereikte diepte een monster te nemen m.b.v. een ramguts, steekbus, staalnamebuis, of een peilbuis te plaatsen. Een valgewicht hamert een binnenbuis, voorzien van een staalnamebuis tot op diepte."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "ramkernboring";
+    skos:note "Boring uitgevoerd met een machinaal aangedreven spiraalboor (schroef) rond een holle binnenbuis om op de bereikte diepte een monster te nemen m.b.v. een ramguts, steekbus, staalnamebuis, of een peilbuis te plaatsen. Een valgewicht hamert een binnenbuis, voorzien van een staalnamebuis tot op diepte."@nl;
+    skos:prefLabel "ramkernboring"@nl;
+    skos:semanticRelation concept:drogeboring, concept:machinaleboring, concept:slagboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:riversideboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.riversideboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een riversideboor voor geroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "riversideboring";
+    skos:note "Handboring uitgevoerd met een riversideboor voor geroerde staalname."@nl;
+    skos:prefLabel "riversideboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:rollerbit dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.rollerbit";
+    a skos:Concept;
+    skos:altLabel "spoelboring met rollerbit, spoelboring met rollenbeitel"@nl;
+    skos:broader concept:spoelboring;
+    skos:broaderTransitive concept:spoelboring;
+    skos:definition "Boring uitgevoerd met een mechanisch aangedreven rollenbeitel door harde ondergrond,"@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "rollerbit";
+    skos:note "Boring uitgevoerd met een mechanisch aangedreven rollenbeitel door harde ondergrond,"@nl;
+    skos:prefLabel "rollerbit"@nl;
+    skos:semanticRelation concept:spoelboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:slagboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.slagboring";
+    a skos:Concept;
+    skos:broader concept:drogeboring;
+    skos:broaderTransitive concept:drogeboring, concept:machinaleboring;
+    skos:definition "Boring waarbij middels slagen op de boorstang, deze in de ondergrond ingebracht wordt."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:narrower concept:gestokenboring, concept:ramguts, concept:ramkernboring;
+    skos:narrowerTransitive concept:gestokenboring, concept:ramguts, concept:ramkernboring;
+    skos:notation "slagboring";
+    skos:note "Boring waarbij middels slagen op de boorstang, deze in de ondergrond ingebracht wordt."@nl;
+    skos:prefLabel "slagboring"@nl;
+    skos:semanticRelation concept:drogeboring, concept:gestokenboring, concept:machinaleboring, concept:ramguts, concept:ramkernboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:sonischeboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.sonischeboring";
+    a skos:Concept;
+    skos:altLabel "sonische boring"@nl;
+    skos:broader concept:trilboring;
+    skos:broaderTransitive concept:drogeboring, concept:machinaleboring, concept:trilboring;
+    skos:definition "De (roto) sonische boring is een trilboring waarbij de boorstang onder  hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "sonischeboring";
+    skos:note "De (roto) sonische boring is een trilboring waarbij de boorstang onder  hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl;
+    skos:prefLabel "roto-sonische boring"@nl;
+    skos:semanticRelation concept:drogeboring, concept:machinaleboring, concept:trilboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:spade dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.spade";
+    a skos:Concept;
+    skos:broader concept:geenboring;
+    skos:broaderTransitive concept:geenboring;
+    skos:definition "Deze boormethode wordt gebruikt om objecten te beschrijven die bemonsterd werden d.m.v. een spade."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "spade";
+    skos:note "Deze boormethode wordt gebruikt om objecten te beschrijven die bemonsterd werden d.m.v. een spade."@nl;
+    skos:prefLabel "spade"@nl;
+    skos:semanticRelation concept:geenboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:spiraalboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.spiraalboring";
+    a skos:Concept;
+    skos:altLabel "handavegaarboring"@nl;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een schroef voor geroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "spiraalboring";
+    skos:note "Handboring uitgevoerd met een schroef voor geroerde staalname."@nl;
+    skos:prefLabel "spiraalboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:spoelboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.spoelboring";
+    a skos:Concept;
+    skos:definition "De spoelboring is, behalve de eerste meters, een onverbuisde boortechniek waarbij met een roterende getande boorbeitel die bevestigd is aan een holle boorbuis, de grond wordt losgemaakt. Het losgeboorde materiaal wordt door middel van een vloeistof naar boven getransporteerd. Deze vloeistof of spoeling dient niet alleen om het losgeboorde materiaal te verwijderen, maar ook om de boorgatwand stabiel te houden. Men maakt een onderscheid tussen verschillende spoelboringen afhankelijk van de manier waarop de spoeling circuleert."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:narrower concept:directespoelboring, concept:lans, concept:luchthevel, concept:omgekeerdespoelboring, concept:rollerbit;
+    skos:narrowerTransitive concept:directespoelboring, concept:lans, concept:luchthevel, concept:omgekeerdespoelboring, concept:rollerbit;
+    skos:notation "spoelboring";
+    skos:note "De spoelboring is, behalve de eerste meters, een onverbuisde boortechniek waarbij met een roterende getande boorbeitel die bevestigd is aan een holle boorbuis, de grond wordt losgemaakt. Het losgeboorde materiaal wordt door middel van een vloeistof naar boven getransporteerd. Deze vloeistof of spoeling dient niet alleen om het losgeboorde materiaal te verwijderen, maar ook om de boorgatwand stabiel te houden. Men maakt een onderscheid tussen verschillende spoelboringen afhankelijk van de manier waarop de spoeling circuleert."@nl;
+    skos:prefLabel "spoelboring"@nl;
+    skos:semanticRelation concept:directespoelboring, concept:lans, concept:luchthevel, concept:omgekeerdespoelboring, concept:rollerbit;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:trilboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.trilboring";
+    a skos:Concept;
+    skos:broader concept:drogeboring;
+    skos:broaderTransitive concept:drogeboring, concept:machinaleboring;
+    skos:definition "Boring waarbij de boorstang machinaal in de grond wordt getrild."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:narrower concept:sonischeboring;
+    skos:narrowerTransitive concept:sonischeboring;
+    skos:notation "trilboring";
+    skos:note "Boring waarbij de boorstang machinaal in de grond wordt getrild."@nl;
+    skos:prefLabel "trilboring"@nl;
+    skos:semanticRelation concept:drogeboring, concept:machinaleboring, concept:sonischeboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:veenboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.veenboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een veenboor voor (semi) geroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "veenboring";
+    skos:note "Handboring uitgevoerd met een veenboor voor (semi) geroerde staalname."@nl;
+    skos:prefLabel "veenboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:vrijwitboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.vrijwitboring";
+    a skos:Concept;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een vrijwitboor voor ongeroerde staalname om de gelaagdheid en samenstelling van een bodem te beschrijven."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "vrijwitboring";
+    skos:note "Handboring uitgevoerd met een vrijwitboor voor ongeroerde staalname om de gelaagdheid en samenstelling van een bodem te beschrijven."@nl;
+    skos:prefLabel "vrijwitboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+concept:zuigerboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.zuigerboring";
+    a skos:Concept;
+    skos:altLabel "vanderstaayboring"@nl;
+    skos:broader concept:handboring;
+    skos:broaderTransitive concept:handboring;
+    skos:definition "Handboring uitgevoerd met een zuigerboor voorzien van een roestvrij stalen steekbuis voor ongeroerde staalname."@nl;
+    skos:inScheme conceptscheme:boormethode;
+    skos:notation "zuigerboring";
+    skos:note "Handboring uitgevoerd met een zuigerboor voorzien van een roestvrij stalen steekbuis voor ongeroerde staalname."@nl;
+    skos:prefLabel "zuigerboring"@nl;
+    skos:semanticRelation concept:handboring;
+    skos:topConceptOf conceptscheme:boormethode.
+conceptscheme:boormethode dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.boormethode";
+    a skos:ConceptScheme;
+    skos:definition "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
+    skos:hasTopConcept concept:avegaarboring, concept:diagrafieboring, concept:directespoelboring, concept:drogeboring, concept:edelmanboring, concept:geenboring, concept:gestokenboring, concept:graafmachine, concept:grijperboring, concept:grindboring, concept:gutsboring, concept:hamerboring, concept:handboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:kernboring, concept:lans, concept:lepelboring, concept:luchthevel, concept:machinaleboring, concept:meerderetechnieken, concept:omgekeerdespoelboring, concept:onbekend, concept:pulsboring, concept:ramguts, concept:ramkernboring, concept:riversideboring, concept:rollerbit, concept:slagboring, concept:sonischeboring, concept:spade, concept:spiraalboring, concept:spoelboring, concept:trilboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
+    skos:notation "boormethodes";
+    skos:note "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
+    skos:prefLabel "boormethodes"@nl.

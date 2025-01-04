@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-boormethode">
+  <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.boormethode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/avegaarboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/diagrafieboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/directespoelboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/drogeboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/edelmanboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/geenboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/gestokenboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/graafmachine" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/grijperboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/grindboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/gutsboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/hamerboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handlepelboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handpulsboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handsteekboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/kernboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/lans" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/lepelboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/luchthevel" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/machinaleboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/meerderetechnieken" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/omgekeerdespoelboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/onbekend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/pulsboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/ramguts" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/ramkernboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/riversideboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/rollerbit" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/slagboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/spade" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/spiraalboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/spoelboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/trilboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/veenboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/vrijwitboring" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/zuigerboring" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
