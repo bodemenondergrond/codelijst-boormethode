@@ -447,7 +447,10 @@
             "definition": "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat  voor het transport van de grond naar het maaiveld.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "avegaarboring",
-            "note": "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat  voor het transport van de grond naar het maaiveld.",
+            "note": [
+                "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat  voor het transport van de grond naar het maaiveld.",
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf)."
+            ],
             "prefLabel": "avegaarboring",
             "semanticRelation": [
                 "concept:drogeboring",
@@ -464,7 +467,10 @@
             "definition": "Destructieve boring waarbij tijdens het boren de boorparameters (zoals boorsnelheid) geregistreerd worden om zo heterogene variaties in de ondergrond vast te leggen.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "diagrafieboring",
-            "note": "Destructieve boring waarbij tijdens het boren de boorparameters (zoals boorsnelheid) geregistreerd worden om zo heterogene variaties in de ondergrond vast te leggen.",
+            "note": [
+                "Destructieve boring waarbij tijdens het boren de boorparameters (zoals boorsnelheid) geregistreerd worden om zo heterogene variaties in de ondergrond vast te leggen.",
+                "Beschrijving Techniek Verticale boringen (https://smetgroup.be/wp-content/uploads/techniek_verticale_boringen.pdf)."
+            ],
             "prefLabel": "diagrafieboring",
             "semanticRelation": "concept:machinaleboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -479,7 +485,10 @@
             "definition": "Bij een directe spoelboring verloopt de neerwaartse watertoevoer via de boorstangen en de bij de boring vrijkomende grond wordt omhoog getransporteerd via de ruimte tussen de boorstangen en de boorwand, de zogenaamde annulaire ruimte.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "directespoelboring",
-            "note": "Bij een directe spoelboring verloopt de neerwaartse watertoevoer via de boorstangen en de bij de boring vrijkomende grond wordt omhoog getransporteerd via de ruimte tussen de boorstangen en de boorwand, de zogenaamde annulaire ruimte.",
+            "note": [
+                "Bij een directe spoelboring verloopt de neerwaartse watertoevoer via de boorstangen en de bij de boring vrijkomende grond wordt omhoog getransporteerd via de ruimte tussen de boorstangen en de boorwand, de zogenaamde annulaire ruimte.",
+                "Beschrijving: Boren voor de installatie van verticale bodemwarmtewisselaars (versie 3.1) - Smart Geotherm: (https://www.smartgeotherm.be/documents/2014/01/boren-voor-de-installatie-van-verticale-bodemwarmtewisselaars-bij-ondiepe-geothermie.pdf/). Boringen en exploitatie van grondwaterwinningsputten. Deel 1 Overzicht van de meest gebruikte boortechnieken (https://navigator.emis.vito.be/light?woId=76828&woLang=nl&woVersion=2024-04-07)."
+            ],
             "prefLabel": "directespoelboring",
             "semanticRelation": "concept:spoelboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -533,7 +542,10 @@
             "definition": "Handboring uitgevoerd met een edelmanboor voor geroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "edelmanboring",
-            "note": "Handboring uitgevoerd met een edelmanboor voor geroerde staalname.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Handboring uitgevoerd met een edelmanboor voor geroerde staalname."
+            ],
             "prefLabel": "edelmanboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -575,7 +587,10 @@
             "definition": "Boring uitgevoerd met een machinaal aangedreven steekboor voorzien van een staalnamebuis die in de grond wordt geslagen voor (semi) ongeroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "gestokenboring",
-            "note": "Boring uitgevoerd met een machinaal aangedreven steekboor voorzien van een staalnamebuis die in de grond wordt geslagen voor (semi) ongeroerde staalname.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Boring uitgevoerd met een machinaal aangedreven steekboor voorzien van een staalnamebuis die in de grond wordt geslagen voor (semi) ongeroerde staalname."
+            ],
             "prefLabel": "gestoken boring",
             "semanticRelation": [
                 "concept:drogeboring",
@@ -607,7 +622,10 @@
             "definition": "Dit is een methode die meestal wordt aangewend voor het aanleggen van waterwinningen met zeer grote diameter en in zeer grof materiaal, zoals dit het geval is in bv. de maasgrinden. Hierbij wordt een grote casing door middel van een oscillatiebeweging (schudkader) in de grond gedreven die vervolgens, zoals bij het pulsen, aan de binnenkant wordt leeggemaakt d.m.v. een grijper aan een kabelkraan. Als de casing tot in de watervoerende laag gedreven is en leeggemaakt, wordt in het midden ervan de putuitrusting geplaatst, die met het nodige grindpakket wordt omgeven, terwijl stelselmatig de casing wordt teruggetrokken.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "grijperboring",
-            "note": "Dit is een methode die meestal wordt aangewend voor het aanleggen van waterwinningen met zeer grote diameter en in zeer grof materiaal, zoals dit het geval is in bv. de maasgrinden. Hierbij wordt een grote casing door middel van een oscillatiebeweging (schudkader) in de grond gedreven die vervolgens, zoals bij het pulsen, aan de binnenkant wordt leeggemaakt d.m.v. een grijper aan een kabelkraan. Als de casing tot in de watervoerende laag gedreven is en leeggemaakt, wordt in het midden ervan de putuitrusting geplaatst, die met het nodige grindpakket wordt omgeven, terwijl stelselmatig de casing wordt teruggetrokken.",
+            "note": [
+                "Dit is een methode die meestal wordt aangewend voor het aanleggen van waterwinningen met zeer grote diameter en in zeer grof materiaal, zoals dit het geval is in bv. de maasgrinden. Hierbij wordt een grote casing door middel van een oscillatiebeweging (schudkader) in de grond gedreven die vervolgens, zoals bij het pulsen, aan de binnenkant wordt leeggemaakt d.m.v. een grijper aan een kabelkraan. Als de casing tot in de watervoerende laag gedreven is en leeggemaakt, wordt in het midden ervan de putuitrusting geplaatst, die met het nodige grindpakket wordt omgeven, terwijl stelselmatig de casing wordt teruggetrokken.",
+                "Boringen en exploitatie van grondwaterwinningsputten. Deel 1 Overzicht van de meest gebruikte boortechnieken (https://navigator.emis.vito.be/light?woId=76828&woLang=nl&woVersion=2024-04-07)."
+            ],
             "prefLabel": "grijperboring",
             "semanticRelation": "concept:machinaleboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -621,7 +639,10 @@
             "definition": "Handboring uitgevoerd met een grindboor voor staalname van harde en/of puinrijke gronden.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "grindboring",
-            "note": "Handboring uitgevoerd met een grindboor voor staalname van harde en/of puinrijke gronden.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Handboring uitgevoerd met een grindboor voor staalname van harde en/of puinrijke gronden."
+            ],
             "prefLabel": "grindboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -635,7 +656,10 @@
             "definition": "Handboring uitgevoerd door de guts zo verticaal mogelijk in de grond te drukken of hameren voor minimaal geroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "gutsboring",
-            "note": "Handboring uitgevoerd door de guts zo verticaal mogelijk in de grond te drukken of hameren voor minimaal geroerde staalname.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Handboring uitgevoerd door de guts zo verticaal mogelijk in de grond te drukken of hameren voor minimaal geroerde staalname."
+            ],
             "prefLabel": "gutsboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -650,7 +674,10 @@
             "definition": "Boring uitgevoerd met een machinaal aangedreven steenboor, hamer of luchthamer door harde ondergrond.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "hamerboring",
-            "note": "Boring uitgevoerd met een machinaal aangedreven steenboor, hamer of luchthamer door harde ondergrond.",
+            "note": [
+                "Boringen en exploitatie van grondwaterwinningsputten. Deel 1 Overzicht van de meest gebruikte boortechnieken (https://navigator.emis.vito.be/light?woId=76828&woLang=nl&woVersion=2024-04-07).",
+                "Boring uitgevoerd met een machinaal aangedreven steenboor, hamer of luchthamer door harde ondergrond."
+            ],
             "prefLabel": "hamerboring",
             "semanticRelation": "concept:machinaleboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -688,7 +715,10 @@
                 "concept:zuigerboring"
             ],
             "notation": "handboring",
-            "note": "Boormethode waarbij een apparaat met de hand wordt bediend en door draaien of drukken dieper de grond in wordt gedreven.",
+            "note": [
+                "Boormethode waarbij een apparaat met de hand wordt bediend en door draaien of drukken dieper de grond in wordt gedreven.",
+                "Definitie overgenomen van Basis Registratie Ondergrond (https://docs.geostandaarden.nl/bro/def-im-bhr-g-20230607/#detail_class_Model_Boortechniek)."
+            ],
             "prefLabel": "handboring",
             "semanticRelation": [
                 "concept:edelmanboring",
@@ -714,7 +744,10 @@
             "definition": "Handboring uitgevoerd met een lepelboor voor (semi) geroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "handlepelboring",
-            "note": "Handboring uitgevoerd met een lepelboor voor (semi) geroerde staalname.",
+            "note": [
+                "Definitie overgenomen van Basis Registratie Ondergrond (https://docs.geostandaarden.nl/bro/def-im-bhr-g-20230607/#detail_class_Model_Boortechniek).",
+                "Handboring uitgevoerd met een lepelboor voor (semi) geroerde staalname."
+            ],
             "prefLabel": "handlepelboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -728,7 +761,10 @@
             "definition": "Handboring uitgevoerd met een pulsboor voor geroerde staalname om niet-gedetailleerde boorbeschrijvingen uit te voeren.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "handpulsboring",
-            "note": "Handboring uitgevoerd met een pulsboor voor geroerde staalname om niet-gedetailleerde boorbeschrijvingen uit te voeren.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Handboring uitgevoerd met een pulsboor voor geroerde staalname om niet-gedetailleerde boorbeschrijvingen uit te voeren."
+            ],
             "prefLabel": "handpulsboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -742,7 +778,10 @@
             "definition": "Handboring uitgevoerd met een steekboor voorzien van een staalnamebuis (liner) die in de grond wordt geduwd voor (semi) ongeroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "handsteekboring",
-            "note": "Handboring uitgevoerd met een steekboor voorzien van een staalnamebuis (liner) die in de grond wordt geduwd voor (semi) ongeroerde staalname.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Handboring uitgevoerd met een steekboor voorzien van een staalnamebuis (liner) die in de grond wordt geduwd voor (semi) ongeroerde staalname."
+            ],
             "prefLabel": "handsteekboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -757,7 +796,10 @@
             "definition": "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij  boorkernen als stalen van de ondergrond bekomen worden.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "kernboring",
-            "note": "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij  boorkernen als stalen van de ondergrond bekomen worden.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij  boorkernen als stalen van de ondergrond bekomen worden."
+            ],
             "prefLabel": "kernboring",
             "semanticRelation": "concept:machinaleboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -807,7 +849,10 @@
             "definition": "Bij de luchthevelboring gebeurt het opwaarts transport van de boorspecie doorheen de concentrische annulaire ruimte van de dubbelwandige boorstangen. De opwaartse stroming wordt in stand gebracht door lucht via een compressor te injecteren net boven de beitel.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "luchthevel",
-            "note": "Bij de luchthevelboring gebeurt het opwaarts transport van de boorspecie doorheen de concentrische annulaire ruimte van de dubbelwandige boorstangen. De opwaartse stroming wordt in stand gebracht door lucht via een compressor te injecteren net boven de beitel.",
+            "note": [
+                "Beschrijving: Boren voor de installatie van verticale bodemwarmtewisselaars (versie 3.1) - Smart Geotherm: (https://www.smartgeotherm.be/documents/2014/01/boren-voor-de-installatie-van-verticale-bodemwarmtewisselaars-bij-ondiepe-geothermie.pdf/). Boringen en exploitatie van grondwaterwinningsputten. Deel 1 Overzicht van de meest gebruikte boortechnieken (https://navigator.emis.vito.be/light?woId=76828&woLang=nl&woVersion=2024-04-07).",
+                "Bij de luchthevelboring gebeurt het opwaarts transport van de boorspecie doorheen de concentrische annulaire ruimte van de dubbelwandige boorstangen. De opwaartse stroming wordt in stand gebracht door lucht via een compressor te injecteren net boven de beitel."
+            ],
             "prefLabel": "luchthevelboring",
             "semanticRelation": "concept:spoelboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -884,7 +929,10 @@
             "definition": "Bij een omgekeerde spoelboring verloopt de wateraanvoer via de annulaire ruimte en komt de vrijgekomen grond omhoog door de boorstangen.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "omgekeerdespoelboring",
-            "note": "Bij een omgekeerde spoelboring verloopt de wateraanvoer via de annulaire ruimte en komt de vrijgekomen grond omhoog door de boorstangen.",
+            "note": [
+                "Beschrijving: Boren voor de installatie van verticale bodemwarmtewisselaars (versie 3.1) - Smart Geotherm: (https://www.smartgeotherm.be/documents/2014/01/boren-voor-de-installatie-van-verticale-bodemwarmtewisselaars-bij-ondiepe-geothermie.pdf/). Boringen en exploitatie van grondwaterwinningsputten. Deel 1 Overzicht van de meest gebruikte boortechnieken (https://navigator.emis.vito.be/light?woId=76828&woLang=nl&woVersion=2024-04-07).",
+                "Bij een omgekeerde spoelboring verloopt de wateraanvoer via de annulaire ruimte en komt de vrijgekomen grond omhoog door de boorstangen."
+            ],
             "prefLabel": "omgekeerde spoelboring",
             "semanticRelation": "concept:spoelboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -910,7 +958,10 @@
             "definition": "Boring uitgevoerd met een machinaal aangedreven pulsboor.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "pulsboring",
-            "note": "Boring uitgevoerd met een machinaal aangedreven pulsboor.",
+            "note": [
+                "Boring uitgevoerd met een machinaal aangedreven pulsboor.",
+                "Beschrijving: Boren voor de installatie van verticale bodemwarmtewisselaars (versie 3.1) - Smart Geotherm: (https://www.smartgeotherm.be/documents/2014/01/boren-voor-de-installatie-van-verticale-bodemwarmtewisselaars-bij-ondiepe-geothermie.pdf/)."
+            ],
             "prefLabel": "pulsboring",
             "semanticRelation": "concept:machinaleboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -928,7 +979,10 @@
             "definition": "Boring uitgevoerd met een gutsboor die machinaal met een slaghamer in de grond wordt gedreven.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "ramguts",
-            "note": "Boring uitgevoerd met een gutsboor die machinaal met een slaghamer in de grond wordt gedreven.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Boring uitgevoerd met een gutsboor die machinaal met een slaghamer in de grond wordt gedreven."
+            ],
             "prefLabel": "ramguts",
             "semanticRelation": [
                 "concept:drogeboring",
@@ -951,7 +1005,10 @@
             "definition": "Boring uitgevoerd met een machinaal aangedreven spiraalboor (schroef) rond een holle binnenbuis om op de bereikte diepte een monster te nemen m.b.v. een ramguts, steekbus, staalnamebuis, of een peilbuis te plaatsen. Een valgewicht hamert een binnenbuis, voorzien van een staalnamebuis tot op diepte.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "ramkernboring",
-            "note": "Boring uitgevoerd met een machinaal aangedreven spiraalboor (schroef) rond een holle binnenbuis om op de bereikte diepte een monster te nemen m.b.v. een ramguts, steekbus, staalnamebuis, of een peilbuis te plaatsen. Een valgewicht hamert een binnenbuis, voorzien van een staalnamebuis tot op diepte.",
+            "note": [
+                "Boring uitgevoerd met een machinaal aangedreven spiraalboor (schroef) rond een holle binnenbuis om op de bereikte diepte een monster te nemen m.b.v. een ramguts, steekbus, staalnamebuis, of een peilbuis te plaatsen. Een valgewicht hamert een binnenbuis, voorzien van een staalnamebuis tot op diepte.",
+                "Bron: Afdeling Geotechniek (VO). Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf)."
+            ],
             "prefLabel": "ramkernboring",
             "semanticRelation": [
                 "concept:drogeboring",
@@ -969,7 +1026,10 @@
             "definition": "Handboring uitgevoerd met een riversideboor voor geroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "riversideboring",
-            "note": "Handboring uitgevoerd met een riversideboor voor geroerde staalname.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Handboring uitgevoerd met een riversideboor voor geroerde staalname."
+            ],
             "prefLabel": "riversideboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -984,7 +1044,10 @@
             "definition": "Boring uitgevoerd met een mechanisch aangedreven rollenbeitel door harde ondergrond,",
             "inScheme": "conceptscheme:boormethode",
             "notation": "rollerbit",
-            "note": "Boring uitgevoerd met een mechanisch aangedreven rollenbeitel door harde ondergrond,",
+            "note": [
+                "Beschrijving Techniek Verticale boringen (https://smetgroup.be/wp-content/uploads/techniek_verticale_boringen.pdf).",
+                "Boring uitgevoerd met een mechanisch aangedreven rollenbeitel door harde ondergrond,"
+            ],
             "prefLabel": "rollerbit",
             "semanticRelation": "concept:spoelboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -1011,7 +1074,10 @@
                 "concept:ramkernboring"
             ],
             "notation": "slagboring",
-            "note": "Boring waarbij middels slagen op de boorstang, deze in de ondergrond ingebracht wordt.",
+            "note": [
+                "Boring waarbij middels slagen op de boorstang, deze in de ondergrond ingebracht wordt.",
+                "Beschrijving: Boren voor de installatie van verticale bodemwarmtewisselaars (versie 3.1) - Smart Geotherm: (https://www.smartgeotherm.be/documents/2014/01/boren-voor-de-installatie-van-verticale-bodemwarmtewisselaars-bij-ondiepe-geothermie.pdf)."
+            ],
             "prefLabel": "slagboring",
             "semanticRelation": [
                 "concept:drogeboring",
@@ -1036,7 +1102,10 @@
             "definition": "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "sonischeboring",
-            "note": "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht.",
+            "note": [
+                "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht.",
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf). Beschrijving: Boren voor de installatie van verticale bodemwarmtewisselaars (versie 3.1) - Smart Geotherm: (https://www.smartgeotherm.be/documents/2014/01/boren-voor-de-installatie-van-verticale-bodemwarmtewisselaars-bij-ondiepe-geothermie.pdf)."
+            ],
             "prefLabel": "roto-sonische boring",
             "semanticRelation": [
                 "concept:drogeboring",
@@ -1069,7 +1138,10 @@
             "definition": "Handboring uitgevoerd met een schroef voor geroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "spiraalboring",
-            "note": "Handboring uitgevoerd met een schroef voor geroerde staalname.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Handboring uitgevoerd met een schroef voor geroerde staalname."
+            ],
             "prefLabel": "spiraalboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -1095,7 +1167,10 @@
                 "concept:rollerbit"
             ],
             "notation": "spoelboring",
-            "note": "De spoelboring is, behalve de eerste meters, een onverbuisde boortechniek waarbij met een roterende getande boorbeitel die bevestigd is aan een holle boorbuis, de grond wordt losgemaakt. Het losgeboorde materiaal wordt door middel van een vloeistof naar boven getransporteerd. Deze vloeistof of spoeling dient niet alleen om het losgeboorde materiaal te verwijderen, maar ook om de boorgatwand stabiel te houden. Men maakt een onderscheid tussen verschillende spoelboringen afhankelijk van de manier waarop de spoeling circuleert.",
+            "note": [
+                "Beschrijving: Boren voor de installatie van verticale bodemwarmtewisselaars (versie 3.1) - Smart Geotherm: (https://www.smartgeotherm.be/documents/2014/01/boren-voor-de-installatie-van-verticale-bodemwarmtewisselaars-bij-ondiepe-geothermie.pdf/). Boringen en exploitatie van grondwaterwinningsputten. Deel 1 Overzicht van de meest gebruikte boortechnieken (https://navigator.emis.vito.be/light?woId=76828&woLang=nl&woVersion=2024-04-07).",
+                "De spoelboring is, behalve de eerste meters, een onverbuisde boortechniek waarbij met een roterende getande boorbeitel die bevestigd is aan een holle boorbuis, de grond wordt losgemaakt. Het losgeboorde materiaal wordt door middel van een vloeistof naar boven getransporteerd. Deze vloeistof of spoeling dient niet alleen om het losgeboorde materiaal te verwijderen, maar ook om de boorgatwand stabiel te houden. Men maakt een onderscheid tussen verschillende spoelboringen afhankelijk van de manier waarop de spoeling circuleert."
+            ],
             "prefLabel": "spoelboring",
             "semanticRelation": [
                 "concept:directespoelboring",
@@ -1120,7 +1195,10 @@
             "narrower": "concept:sonischeboring",
             "narrowerTransitive": "concept:sonischeboring",
             "notation": "trilboring",
-            "note": "Boring waarbij de boorstang machinaal in de grond wordt getrild.",
+            "note": [
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
+                "Boring waarbij de boorstang machinaal in de grond wordt getrild."
+            ],
             "prefLabel": "trilboring",
             "semanticRelation": [
                 "concept:drogeboring",
@@ -1138,7 +1216,10 @@
             "definition": "Handboring uitgevoerd met een veenboor voor (semi) geroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "veenboring",
-            "note": "Handboring uitgevoerd met een veenboor voor (semi) geroerde staalname.",
+            "note": [
+                "Handboring uitgevoerd met een veenboor voor (semi) geroerde staalname.",
+                "Beschrijving in CMA/1/A.4 - Apparatuur en materiaal (https://reflabos.vito.be/2024/CMA_1_A.4.pdf)."
+            ],
             "prefLabel": "veenboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -1152,7 +1233,10 @@
             "definition": "Handboring uitgevoerd met een vrijwitboor voor ongeroerde staalname om de gelaagdheid en samenstelling van een bodem te beschrijven.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "vrijwitboring",
-            "note": "Handboring uitgevoerd met een vrijwitboor voor ongeroerde staalname om de gelaagdheid en samenstelling van een bodem te beschrijven.",
+            "note": [
+                "Beschrijving in CMA/1/A.4 - Apparatuur en materiaal (https://reflabos.vito.be/2024/CMA_1_A.4.pdf).",
+                "Handboring uitgevoerd met een vrijwitboor voor ongeroerde staalname om de gelaagdheid en samenstelling van een bodem te beschrijven."
+            ],
             "prefLabel": "vrijwitboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
@@ -1167,7 +1251,10 @@
             "definition": "Handboring uitgevoerd met een zuigerboor voorzien van een roestvrij stalen steekbuis voor ongeroerde staalname.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "zuigerboring",
-            "note": "Handboring uitgevoerd met een zuigerboor voorzien van een roestvrij stalen steekbuis voor ongeroerde staalname.",
+            "note": [
+                "Handboring uitgevoerd met een zuigerboor voorzien van een roestvrij stalen steekbuis voor ongeroerde staalname.",
+                "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf). Beschrijving in CMA/1/A.4 - Apparatuur en materiaal (https://reflabos.vito.be/2024/CMA_1_A.4.pdf)."
+            ],
             "prefLabel": "zuigerboring",
             "semanticRelation": "concept:handboring",
             "topConceptOf": "conceptscheme:boormethode"
