@@ -659,6 +659,7 @@
             "id": "concept:handboring",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.handboring",
+            "definition": "Boormethode waarbij een apparaat met de hand wordt bediend en door draaien of drukken dieper de grond in wordt gedreven.",
             "inScheme": "conceptscheme:boormethode",
             "narrower": [
                 "concept:edelmanboring",
@@ -687,6 +688,7 @@
                 "concept:zuigerboring"
             ],
             "notation": "handboring",
+            "note": "Boormethode waarbij een apparaat met de hand wordt bediend en door draaien of drukken dieper de grond in wordt gedreven.",
             "prefLabel": "handboring",
             "semanticRelation": [
                 "concept:edelmanboring",
@@ -1031,10 +1033,10 @@
                 "concept:machinaleboring",
                 "concept:trilboring"
             ],
-            "definition": "De (roto) sonische boring is een trilboring waarbij de boorstang onder  hoogfrequente trilling al dan niet roterend in de grond wordt gebracht.",
+            "definition": "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "sonischeboring",
-            "note": "De (roto) sonische boring is een trilboring waarbij de boorstang onder  hoogfrequente trilling al dan niet roterend in de grond wordt gebracht.",
+            "note": "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht.",
             "prefLabel": "roto-sonische boring",
             "semanticRelation": [
                 "concept:drogeboring",

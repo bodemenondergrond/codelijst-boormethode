@@ -208,6 +208,7 @@
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/hamerboring> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/boormethode> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.handboring" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#definition> "Boormethode waarbij een apparaat met de hand wordt bediend en door draaien of drukken dieper de grond in wordt gedreven."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/boormethode> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/edelmanboring> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/grindboring> .
@@ -232,6 +233,7 @@
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/vrijwitboring> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/zuigerboring> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#notation> "handboring" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#note> "Boormethode waarbij een apparaat met de hand wordt bediend en door draaien of drukken dieper de grond in wordt gedreven."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#prefLabel> "handboring"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/edelmanboring> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/handboring> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/grindboring> .
@@ -492,10 +494,10 @@
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/drogeboring> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/machinaleboring> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/trilboring> .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#definition> "De (roto) sonische boring is een trilboring waarbij de boorstang onder  hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#definition> "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/boormethode> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#notation> "sonischeboring" .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#note> "De (roto) sonische boring is een trilboring waarbij de boorstang onder  hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#note> "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#prefLabel> "roto-sonische boring"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/drogeboring> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/sonischeboring> <http://www.w3.org/2004/02/skos/core#semanticRelation> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/machinaleboring> .

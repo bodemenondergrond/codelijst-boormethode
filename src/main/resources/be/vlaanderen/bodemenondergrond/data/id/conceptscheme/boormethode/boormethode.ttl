@@ -200,10 +200,12 @@ concept:hamerboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conce
     skos:topConceptOf conceptscheme:boormethode.
 concept:handboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boormethode.handboring";
     a skos:Concept;
+    skos:definition "Boormethode waarbij een apparaat met de hand wordt bediend en door draaien of drukken dieper de grond in wordt gedreven."@nl;
     skos:inScheme conceptscheme:boormethode;
     skos:narrower concept:edelmanboring, concept:grindboring, concept:gutsboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:riversideboring, concept:spiraalboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
     skos:narrowerTransitive concept:edelmanboring, concept:grindboring, concept:gutsboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:riversideboring, concept:spiraalboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
     skos:notation "handboring";
+    skos:note "Boormethode waarbij een apparaat met de hand wordt bediend en door draaien of drukken dieper de grond in wordt gedreven."@nl;
     skos:prefLabel "handboring"@nl;
     skos:semanticRelation concept:edelmanboring, concept:grindboring, concept:gutsboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:riversideboring, concept:spiraalboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
     skos:topConceptOf conceptscheme:boormethode.
@@ -402,10 +404,10 @@ concept:sonischeboring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.co
     skos:altLabel "sonische boring"@nl;
     skos:broader concept:trilboring;
     skos:broaderTransitive concept:drogeboring, concept:machinaleboring, concept:trilboring;
-    skos:definition "De (roto) sonische boring is een trilboring waarbij de boorstang onder  hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl;
+    skos:definition "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl;
     skos:inScheme conceptscheme:boormethode;
     skos:notation "sonischeboring";
-    skos:note "De (roto) sonische boring is een trilboring waarbij de boorstang onder  hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl;
+    skos:note "De (roto) sonische boring is een trilboring waarbij de boorstang onder hoogfrequente trilling al dan niet roterend in de grond wordt gebracht."@nl;
     skos:prefLabel "roto-sonische boring"@nl;
     skos:semanticRelation concept:drogeboring, concept:machinaleboring, concept:trilboring;
     skos:topConceptOf conceptscheme:boormethode.
