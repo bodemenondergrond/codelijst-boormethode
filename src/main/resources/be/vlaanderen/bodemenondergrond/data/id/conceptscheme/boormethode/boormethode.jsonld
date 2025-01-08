@@ -444,11 +444,11 @@
                 "concept:drogeboring",
                 "concept:machinaleboring"
             ],
-            "definition": "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat  voor het transport van de grond naar het maaiveld.",
+            "definition": "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat voor het transport van de grond naar het maaiveld.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "avegaarboring",
             "note": [
-                "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat  voor het transport van de grond naar het maaiveld.",
+                "De volle of gewone avegaarboring wordt uitgevoerd met een machinaal aangedreven spiraalboor (schroef). De grond wordt los gefreesd door een schroef die ook instaat voor het transport van de grond naar het maaiveld.",
                 "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf)."
             ],
             "prefLabel": "avegaarboring",
@@ -489,7 +489,7 @@
                 "Bij een directe spoelboring verloopt de neerwaartse watertoevoer via de boorstangen en de bij de boring vrijkomende grond wordt omhoog getransporteerd via de ruimte tussen de boorstangen en de boorwand, de zogenaamde annulaire ruimte.",
                 "Beschrijving: Boren voor de installatie van verticale bodemwarmtewisselaars (versie 3.1) - Smart Geotherm: (https://www.smartgeotherm.be/documents/2014/01/boren-voor-de-installatie-van-verticale-bodemwarmtewisselaars-bij-ondiepe-geothermie.pdf/). Boringen en exploitatie van grondwaterwinningsputten. Deel 1 Overzicht van de meest gebruikte boortechnieken (https://navigator.emis.vito.be/light?woId=76828&woLang=nl&woVersion=2024-04-07)."
             ],
-            "prefLabel": "directespoelboring",
+            "prefLabel": "directe spoelboring",
             "semanticRelation": "concept:spoelboring",
             "topConceptOf": "conceptscheme:boormethode"
         },
@@ -793,12 +793,12 @@
             "altLabel": "rotary kernboring, kroonboring",
             "broader": "concept:machinaleboring",
             "broaderTransitive": "concept:machinaleboring",
-            "definition": "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij  boorkernen als stalen van de ondergrond bekomen worden.",
+            "definition": "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij boorkernen als stalen van de ondergrond bekomen worden.",
             "inScheme": "conceptscheme:boormethode",
             "notation": "kernboring",
             "note": [
                 "Beschrijving in CMA/1/A.1 - Type Boringen en uitvoeringsmethodes gehanteerd bij staalname (https://reflabos.vito.be/2018/CMA_1_A.1.pdf).",
-                "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij  boorkernen als stalen van de ondergrond bekomen worden."
+                "Boring uitgevoerd met een kernboor, (rotary kernboor, kroonboor) of steenboor waarbij boorkernen als stalen van de ondergrond bekomen worden."
             ],
             "prefLabel": "kernboring",
             "semanticRelation": "concept:machinaleboring",
