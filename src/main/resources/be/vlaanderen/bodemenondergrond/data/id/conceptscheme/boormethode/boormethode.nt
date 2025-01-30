@@ -671,4 +671,4 @@
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/boormethode> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/zuigerboring> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/boormethode> <http://www.w3.org/2004/02/skos/core#notation> "boormethodes" .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/boormethode> <http://www.w3.org/2004/02/skos/core#note> "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl .
-<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/boormethode> <http://www.w3.org/2004/02/skos/core#prefLabel> "boormethodes"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/boormethode> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conceptschema boormethodes"@nl .

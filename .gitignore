@@ -18,5 +18,7 @@ buildNumber.properties
 *.iml
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-codelijst-bemonsteringsinstrument.iml
+codelijst-boormethode.iml
 node_modules/
+src/.env
+src/utils/setenv.js
