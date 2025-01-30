@@ -498,4 +498,4 @@ conceptscheme:boormethode dc:identifier "be.vlaanderen.bodemenondergrond.data.id
     skos:hasTopConcept concept:avegaarboring, concept:diagrafieboring, concept:directespoelboring, concept:drogeboring, concept:edelmanboring, concept:geenboring, concept:gestokenboring, concept:graafmachine, concept:grijperboring, concept:grindboring, concept:gutsboring, concept:hamerboring, concept:handboring, concept:handlepelboring, concept:handpulsboring, concept:handsteekboring, concept:kernboring, concept:lans, concept:lepelboring, concept:luchthevel, concept:machinaleboring, concept:meerderetechnieken, concept:omgekeerdespoelboring, concept:onbekend, concept:pulsboring, concept:ramguts, concept:ramkernboring, concept:riversideboring, concept:rollerbit, concept:slagboring, concept:sonischeboring, concept:spade, concept:spiraalboring, concept:spoelboring, concept:trilboring, concept:veenboring, concept:vrijwitboring, concept:zuigerboring;
     skos:notation "boormethodes";
     skos:note "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
-    skos:prefLabel "boormethodes"@nl.
+    skos:prefLabel "Conceptschema boormethodes"@nl.
