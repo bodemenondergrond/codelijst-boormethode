@@ -1,11 +1,11 @@
-types : boormethodes
+types: boormethodes
 skos:
-  rules :
-    skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
-    dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
-  prefixes :
-    concept : https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/
-    collectie : https://data.bodemenondergrond.vlaanderen.be/id/collection/boormethode/
+  rules:
+    skos_rules: /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
+    dcterms_rules: /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
+  prefixes:
+    concept: https://data.bodemenondergrond.vlaanderen.be/id/concept/boormethode/
+    collectie: https://data.bodemenondergrond.vlaanderen.be/id/collection/boormethode/
   path: ./main/resources/be/vlaanderen/bodemenondergrond/data/id/conceptscheme/
   name: boormethode
   turtle: .ttl
@@ -28,13 +28,13 @@ dcat:
   catalog_turtle: catalog.ttl
   catalog_jsonld: catalog.jsonld
 
-ap :
+ap:
   path: ./main/resources/be/vlaanderen/bodemenondergrond/data/id/ontology/
   type: ap-constraints
   name: boormethode
   turtle: .ttl
 
-metadata :
+metadata:
   sparqlservice:
     endpoint: https://data.bodemenondergrond.vlaanderen.be/sparql
     feature:
@@ -50,39 +50,41 @@ metadata :
       - http://www.w3.org/ns/formats/Turtle
       - http://www.w3.org/ns/formats/SPARQL_Results_JSON
     supportedLanguage: http://www.w3.org/ns/sparql-service-description#SPARQL10Query
-  all :
-    accessURL : https://github.com/bodemenondergrond/codelijst-boormethode.git
-    contactPoint : https://data.omgeving.vlaanderen.be/id/vcard/helpdesk
-    license : http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0
-    publisher : http://data.vlaanderen.be/id/organisatie/OVO003323
-    rightsHolder :  http://data.vlaanderen.be/id/organisatie/OVO003749
-    theme :
-      - http://eurovoc.europa.eu/2407
-      - http://publications.europa.eu/resource/authority/data-theme/ENVI
-      - http://vocab.belgif.be/auth/datatheme/ENVI
-      - http://www.eionet.europa.eu/gemet/concept/10087
-    spatial :
+  all:
+    accessURL: https://github.com/bodemenondergrond/codelijst-boormethode.git
+    contactPoint: https://dov.vlaanderen.be/contact
+    license: http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0
+    publisher: http://data.vlaanderen.be/id/organisatie/OVO027735
+    rightsHolder: http://data.vlaanderen.be/id/organisatie/OVO027735
+    theme:
+      - https://www.eionet.europa.eu/gemet/nl/concept/3650
+      - https://www.eionet.europa.eu/gemet/nl/concept/12665
+      - https://www.eionet.europa.eu/gemet/nl/concept/7843
+      - https://www.eionet.europa.eu/gemet/nl/concept/3780
+      - https://www.eionet.europa.eu/gemet/nl/concept/7880
+      - https://www.eionet.europa.eu/gemet/nl/concept/3031
+    spatial:
       - http://publications.europa.eu/resource/authority/country/BEL
       - https://sws.geonames.org/3337388/
-    accessRights :  http://publications.europa.eu/resource/authority/access-right/PUBLIC
-    accrualPeriodicity : http://publications.europa.eu/resource/authority/frequency/IRREG
-    dct.language : http://publications.europa.eu/resource/authority/language/NLD
-    landingPage  : https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html
-  catalog :
-    uri : https://data.bodemenondergrond.vlaanderen.be/id/catalog/codelijst
+    accessRights: http://publications.europa.eu/resource/authority/access-right/PUBLIC
+    accrualPeriodicity: http://publications.europa.eu/resource/authority/frequency/AS_NEEDED
+    dct.language: http://publications.europa.eu/resource/authority/language/NLD
+    landingPage: https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html
+  catalog:
+    uri: https://data.bodemenondergrond.vlaanderen.be/id/catalog/codelijst
     type: http://www.w3.org/ns/dcat#Catalog
-  dataset :
-    temporal : https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg
-    type : http://www.w3.org/ns/dcat#Dataset
-  distribution :
+  dataset:
+    temporal: https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg
+    type: http://www.w3.org/ns/dcat#Dataset
+  distribution:
     xlsx:
       mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
       format: http://publications.europa.eu/resource/authority/file-type/XLSX
       type: http://www.w3.org/ns/dcat#Distribution
-    csv :
-      mediaType : https://www.iana.org/assignments/media-types/text/csv
-      format : http://publications.europa.eu/resource/authority/file-type/CSV
-      type : http://www.w3.org/ns/dcat#Distribution
+    csv:
+      mediaType: https://www.iana.org/assignments/media-types/text/csv
+      format: http://publications.europa.eu/resource/authority/file-type/CSV
+      type: http://www.w3.org/ns/dcat#Distribution
     nt:
       mediaType: https://www.iana.org/assignments/media-types/application/n-triples
       format: http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES
@@ -90,7 +92,7 @@ metadata :
     ttl:
       mediaType: https://www.iana.org/assignments/media-types/text/turtle
       format: http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE
-      type : http://www.w3.org/ns/dcat#Distribution
+      type: http://www.w3.org/ns/dcat#Distribution
     xsd:
       mediaType: https://www.iana.org/assignments/media-types/application/rdf+xml
       format: http://publications.europa.eu/resource/authority/file-type/RDF_XML
@@ -98,15 +100,15 @@ metadata :
     jsonld:
       mediaType: https://www.iana.org/assignments/media-types/application/ld+json
       format: http://publications.europa.eu/resource/authority/file-type/JSON_LD
-      type : http://www.w3.org/ns/dcat#Distribution
-    jar :
-      mediaType : https://www.iana.org/assignments/media-types/application/java-archive
-      format : http://publications.europa.eu/resource/authority/file-type/JAR
-      type :
+      type: http://www.w3.org/ns/dcat#Distribution
+    jar:
+      mediaType: https://www.iana.org/assignments/media-types/application/java-archive
+      format: http://publications.europa.eu/resource/authority/file-type/JAR
+      type:
         - http://www.w3.org/ns/dcat#Distribution
         - http://spdx.org/rdf/terms#Package
 
-prefixes :
+prefixes:
   access_right: http://publications.europa.eu/resource/authority/access-right/
   adms: http://www.w3.org/ns/adms#
   assettype: http://purl.org/adms/assettype/
